@@ -31,7 +31,7 @@ To use this project run `npm start` command in terminal of your editor project w
 ## Author
 👤 **Emmanuel Paul**
 
-- GitHub: [Emmanuel Paul](https://github.com/Epaltechs/Webpack)
+- GitHub: [Emmanuel Paul](https://github.com/Epaltechs/Math-Magicians)
 - Twitter: [Emmanuel Paul](http://twitter.com/@emmapaul247)
 - LinkedIn: [Emmanuel Paul](https://www.linkedin.com/in/emmanuel-paul-a2bab7b4/)
 
