@@ -10,7 +10,7 @@
 - CSS
 
 ## Live Demo
-[localhost:3000](https://localhost:3000)
+[localhost:3000/3001](https://localhost:3000/3001)
 
 ## Getting Started
 To get a local copy open and running follow these simple example steps.
