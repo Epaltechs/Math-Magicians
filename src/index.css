@@ -49,7 +49,7 @@ button:nth-child(9),
 button:nth-child(13),
 button:nth-child(17),
 button:nth-child(20) {
-  background-color: #f5913e;
+  background-color: #359b79;
 }
 
 @media (max-width: 550px) {
