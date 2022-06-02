@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 
 let count = 1;
-class Design extends React.Component {
+class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -29,11 +29,11 @@ class Design extends React.Component {
   }
 }
 
-Design.propTypes = {
+Calculator.propTypes = {
   data: PropTypes.string.isRequired,
   initialState: PropTypes.string.isRequired,
   newState: PropTypes.func.isRequired,
   obj: PropTypes.string.isRequired
 };
 
-export default Design;
+export default Calculator;
