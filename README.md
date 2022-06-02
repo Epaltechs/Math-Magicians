@@ -2,6 +2,7 @@
 
 "Math Magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to Make simple calculations, read a random math-related quote.
 
+![screenshot](./src/screen.png))
 
 ## Built With
 - React.js
@@ -27,7 +28,7 @@ To get a local copy open and running follow these simple example steps.
 To use this project run `npm start` command in terminal of your editor project will start automatically after whille
 
 ## Author
-👤 **Emmanuel Paul**
+## 👤 **Emmanuel Paul**
 
 - GitHub: [Emmanuel Paul](https://github.com/Epaltechs/Math-Magicians)
 - Twitter: [Emmanuel Paul](http://twitter.com/@emmapaul247)
