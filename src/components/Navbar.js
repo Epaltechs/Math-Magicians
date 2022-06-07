@@ -1,18 +1,35 @@
-import React from "react";
-import { FcAdvance } from "react-icons/fc";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './header.css';
+
 const Navbar = () => {
-    return (
-        <nav className="navbar">
-            <FcAdvance className="icon"/>
-            <h1 className="header-text">Math Magicians</h1>
-            <ul className="nav-list-container">
-                <Link to="/" className="nav-list">Home</Link>
-                <Link to="/design" className="nav-list">Calculator</Link>
-                <Link to="/quote" className="nav-list">Quote</Link>
-            </ul>
-        </nav>
-    );
-}
- 
+  const linkStyle = {
+    margin: '1rem',
+    textDecoration: 'none',
+    color: 'orange',
+  };
+  return (
+    <>
+      <ul className="header">
+        <li>
+          <NavLink style={linkStyle} to="/">
+            Home
+          </NavLink>
+        </li>
+        <li>
+          <NavLink style={linkStyle} to="/calculator">
+            Calculator
+          </NavLink>
+        </li>
+        <li>
+          <NavLink style={linkStyle} to="/quote">
+            Quote
+          </NavLink>
+        </li>
+      </ul>
+      <h2 className="title">Math Magicians</h2>
+    </>
+  );
+};
+
 export default Navbar;
