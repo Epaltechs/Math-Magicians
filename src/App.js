@@ -1,6 +1,6 @@
 import './index.css';
 import React from 'react';
-import Design from './components/Calculator';
+import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Quote from './components/Quote';
@@ -19,7 +19,7 @@ function App() {
       <header className="App-header">
         <Navbar />
         <Routes>
-          <Route exact path='/design' element={<Design data={buttonNames} obj={data} />} />
+          <Route exact path='/calculator' element={<Calculator data={buttonNames} obj={data} />} />
           <Route path='/' element={<Home />} />
           <Route path='/quote' element={<Quote />} />
         </Routes>
