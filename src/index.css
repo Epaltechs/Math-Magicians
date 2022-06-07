@@ -13,7 +13,7 @@
   overflow-x: hidden;
 }
 
-.navbar {
+.header {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -67,6 +67,7 @@
 
 .p {
   width: 60%;
+  margin: 10rem;
 }
 
 .nav-list {
@@ -74,7 +75,7 @@
   font-size: 24px;
   font-family: 'Inconsolata', serif;
   align-self: center;
-  color: rgba(224, 224, 224);
+  color: rgb(46, 184, 131);
   text-decoration: none;
 }
 

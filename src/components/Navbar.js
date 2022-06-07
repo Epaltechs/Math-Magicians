@@ -6,7 +6,7 @@ const Navbar = () => {
   const linkStyle = {
     margin: '1rem',
     textDecoration: 'none',
-    color: 'orange',
+    color: 'rgb(17, 168, 161)',
   };
   return (
     <>
