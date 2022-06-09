@@ -1,0 +1,34 @@
+8ac51c85316a0960992b8f41933140e1
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/Otomfon/Desktop/Math-Magicians/node_modules/@babel/runtime/helpers/interopRequireDefault.js").default;
+
+var _calculate = _interopRequireDefault(require("../logic/calculate"));
+
+describe('Test for the button AC', () => {
+  test('it should return Obj with null values', () => {
+    const obj = {
+      total: 5,
+      next: 2,
+      operation: '+'
+    };
+    const btnValue = 'AC';
+    const response = (0, _calculate.default)(obj, btnValue);
+    expect(response.total).toBe(null);
+    expect(response.next).toBe('0');
+    expect(response.operation).toBe(null);
+  });
+});
+describe('Test for button with type of number ', () => {
+  test('case 1: total and operation are null', () => {
+    const obj = {
+      total: null,
+      next: '0',
+      operation: null
+    };
+    const btnValue = '0';
+    const response = (0, _calculate.default)(obj, btnValue);
+    expect(response).toEqual({});
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJkZXNjcmliZSIsInRlc3QiLCJvYmoiLCJ0b3RhbCIsIm5leHQiLCJvcGVyYXRpb24iLCJidG5WYWx1ZSIsInJlc3BvbnNlIiwiY2FsY3VsYXRlIiwiZXhwZWN0IiwidG9CZSIsInRvRXF1YWwiXSwic291cmNlcyI6WyJjYWxjdWxhdGUudGVzdC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgY2FsY3VsYXRlIGZyb20gJy4uL2xvZ2ljL2NhbGN1bGF0ZSc7XG5cbmRlc2NyaWJlKCdUZXN0IGZvciB0aGUgYnV0dG9uIEFDJywgKCkgPT4ge1xuICB0ZXN0KCdpdCBzaG91bGQgcmV0dXJuIE9iaiB3aXRoIG51bGwgdmFsdWVzJywgKCkgPT4ge1xuICAgIGNvbnN0IG9iaiA9IHtcbiAgICAgIHRvdGFsOiA1LFxuICAgICAgbmV4dDogMixcbiAgICAgIG9wZXJhdGlvbjogJysnLFxuICAgIH07XG4gICAgY29uc3QgYnRuVmFsdWUgPSAnQUMnO1xuXG4gICAgY29uc3QgcmVzcG9uc2UgPSBjYWxjdWxhdGUob2JqLCBidG5WYWx1ZSk7XG5cbiAgICBleHBlY3QocmVzcG9uc2UudG90YWwpLnRvQmUobnVsbCk7XG4gICAgZXhwZWN0KHJlc3BvbnNlLm5leHQpLnRvQmUoJzAnKTtcbiAgICBleHBlY3QocmVzcG9uc2Uub3BlcmF0aW9uKS50b0JlKG51bGwpO1xuICB9KTtcbn0pO1xuXG5kZXNjcmliZSgnVGVzdCBmb3IgYnV0dG9uIHdpdGggdHlwZSBvZiBudW1iZXIgJywgKCkgPT4ge1xuICB0ZXN0KCdjYXNlIDE6IHRvdGFsIGFuZCBvcGVyYXRpb24gYXJlIG51bGwnLCAoKSA9PiB7XG4gICAgY29uc3Qgb2JqID0ge1xuICAgICAgdG90YWw6IG51bGwsXG4gICAgICBuZXh0OiAnMCcsXG4gICAgICBvcGVyYXRpb246IG51bGwsXG4gICAgfTtcbiAgICBjb25zdCBidG5WYWx1ZSA9ICcwJztcbiAgICBjb25zdCByZXNwb25zZSA9IGNhbGN1bGF0ZShvYmosIGJ0blZhbHVlKTtcbiAgICBleHBlY3QocmVzcG9uc2UpLnRvRXF1YWwoe30pO1xuICB9KTtcbn0pO1xuIl0sIm1hcHBpbmdzIjoiOzs7O0FBQUE7O0FBRUFBLFFBQVEsQ0FBQyx3QkFBRCxFQUEyQixNQUFNO0VBQ3ZDQyxJQUFJLENBQUMsdUNBQUQsRUFBMEMsTUFBTTtJQUNsRCxNQUFNQyxHQUFHLEdBQUc7TUFDVkMsS0FBSyxFQUFFLENBREc7TUFFVkMsSUFBSSxFQUFFLENBRkk7TUFHVkMsU0FBUyxFQUFFO0lBSEQsQ0FBWjtJQUtBLE1BQU1DLFFBQVEsR0FBRyxJQUFqQjtJQUVBLE1BQU1DLFFBQVEsR0FBRyxJQUFBQyxrQkFBQSxFQUFVTixHQUFWLEVBQWVJLFFBQWYsQ0FBakI7SUFFQUcsTUFBTSxDQUFDRixRQUFRLENBQUNKLEtBQVYsQ0FBTixDQUF1Qk8sSUFBdkIsQ0FBNEIsSUFBNUI7SUFDQUQsTUFBTSxDQUFDRixRQUFRLENBQUNILElBQVYsQ0FBTixDQUFzQk0sSUFBdEIsQ0FBMkIsR0FBM0I7SUFDQUQsTUFBTSxDQUFDRixRQUFRLENBQUNGLFNBQVYsQ0FBTixDQUEyQkssSUFBM0IsQ0FBZ0MsSUFBaEM7RUFDRCxDQWJHLENBQUo7QUFjRCxDQWZPLENBQVI7QUFpQkFWLFFBQVEsQ0FBQyxzQ0FBRCxFQUF5QyxNQUFNO0VBQ3JEQyxJQUFJLENBQUMsc0NBQUQsRUFBeUMsTUFBTTtJQUNqRCxNQUFNQyxHQUFHLEdBQUc7TUFDVkMsS0FBSyxFQUFFLElBREc7TUFFVkMsSUFBSSxFQUFFLEdBRkk7TUFHVkMsU0FBUyxFQUFFO0lBSEQsQ0FBWjtJQUtBLE1BQU1DLFFBQVEsR0FBRyxHQUFqQjtJQUNBLE1BQU1DLFFBQVEsR0FBRyxJQUFBQyxrQkFBQSxFQUFVTixHQUFWLEVBQWVJLFFBQWYsQ0FBakI7SUFDQUcsTUFBTSxDQUFDRixRQUFELENBQU4sQ0FBaUJJLE9BQWpCLENBQXlCLEVBQXpCO0VBQ0QsQ0FURyxDQUFKO0FBVUQsQ0FYTyxDQUFSIn0=

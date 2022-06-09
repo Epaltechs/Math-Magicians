@@ -1,0 +1,24 @@
+e2c361ed556ceac42f8e8a87697a9ce8
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/Otomfon/Desktop/Math-Magicians/node_modules/@babel/runtime/helpers/interopRequireDefault.js").default;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));
+
+var _Home = _interopRequireDefault(require("./Home"));
+
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+
+var _jsxFileName = "C:\\Users\\Otomfon\\Desktop\\Math-Magicians\\src\\components\\Home.test.js";
+it('should render correctly', () => {
+  const tree = _reactTestRenderer.default.create( /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_Home.default, {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 7,
+    columnNumber: 13
+  }, void 0)).toJSON();
+
+  expect(tree).toMatchSnapshot();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJpdCIsInRyZWUiLCJyZW5kZXJlciIsImNyZWF0ZSIsInRvSlNPTiIsImV4cGVjdCIsInRvTWF0Y2hTbmFwc2hvdCJdLCJzb3VyY2VzIjpbIkhvbWUudGVzdC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IHJlbmRlcmVyIGZyb20gJ3JlYWN0LXRlc3QtcmVuZGVyZXInO1xuaW1wb3J0IEhvbWUgZnJvbSAnLi9Ib21lJztcblxuaXQoJ3Nob3VsZCByZW5kZXIgY29ycmVjdGx5JywgKCkgPT4ge1xuICBjb25zdCB0cmVlID0gcmVuZGVyZXJcbiAgICAuY3JlYXRlKDxIb21lIC8+KVxuICAgIC50b0pTT04oKTtcbiAgZXhwZWN0KHRyZWUpLnRvTWF0Y2hTbmFwc2hvdCgpO1xufSk7XG4iXSwibWFwcGluZ3MiOiI7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7Ozs7QUFFQUEsRUFBRSxDQUFDLHlCQUFELEVBQTRCLE1BQU07RUFDbEMsTUFBTUMsSUFBSSxHQUFHQywwQkFBQSxDQUNWQyxNQURVLGVBQ0gsMkJBQUMsYUFBRDtJQUFBO0lBQUE7SUFBQTtFQUFBLFVBREcsRUFFVkMsTUFGVSxFQUFiOztFQUdBQyxNQUFNLENBQUNKLElBQUQsQ0FBTixDQUFhSyxlQUFiO0FBQ0QsQ0FMQyxDQUFGIn0=
