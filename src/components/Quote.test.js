@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from "react";
 import Quote from "./Quote";
 import renderer from 'react-test-renderer';
