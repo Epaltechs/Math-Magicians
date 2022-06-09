@@ -1,0 +1,24 @@
+47d16b8772bcafc065cf326f79d1b673
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/Otomfon/Desktop/Math-Magicians/node_modules/@babel/runtime/helpers/interopRequireDefault.js").default;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Quote = _interopRequireDefault(require("./Quote"));
+
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));
+
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+
+var _jsxFileName = "C:\\Users\\Otomfon\\Desktop\\Math-Magicians\\src\\components\\Quote.test.js";
+it('should render correctly', () => {
+  const tree = _reactTestRenderer.default.create( /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_Quote.default, {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 17
+  }, void 0)).toJSON();
+
+  expect(tree).toMatchSnapshot();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJpdCIsInRyZWUiLCJyZW5kZXJlciIsImNyZWF0ZSIsInRvSlNPTiIsImV4cGVjdCIsInRvTWF0Y2hTbmFwc2hvdCJdLCJzb3VyY2VzIjpbIlF1b3RlLnRlc3QuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLyplc2xpbnQtZGlzYWJsZSovXHJcbmltcG9ydCBSZWFjdCBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IFF1b3RlIGZyb20gXCIuL1F1b3RlXCI7XHJcbmltcG9ydCByZW5kZXJlciBmcm9tICdyZWFjdC10ZXN0LXJlbmRlcmVyJztcclxuXHJcbml0KCdzaG91bGQgcmVuZGVyIGNvcnJlY3RseScsICgpPT57XHJcbiAgICBjb25zdCB0cmVlID0gcmVuZGVyZXJcclxuICAgICAgICAuY3JlYXRlKDxRdW90ZSAvPilcclxuICAgICAgICAudG9KU09OKCk7XHJcbiBleHBlY3QodHJlZSkudG9NYXRjaFNuYXBzaG90KCk7XHJcbn0pO1xyXG4iXSwibWFwcGluZ3MiOiI7Ozs7QUFDQTs7QUFDQTs7QUFDQTs7Ozs7QUFFQUEsRUFBRSxDQUFDLHlCQUFELEVBQTRCLE1BQUk7RUFDOUIsTUFBTUMsSUFBSSxHQUFHQywwQkFBQSxDQUNSQyxNQURRLGVBQ0QsMkJBQUMsY0FBRDtJQUFBO0lBQUE7SUFBQTtFQUFBLFVBREMsRUFFUkMsTUFGUSxFQUFiOztFQUdIQyxNQUFNLENBQUNKLElBQUQsQ0FBTixDQUFhSyxlQUFiO0FBQ0EsQ0FMQyxDQUFGIn0=

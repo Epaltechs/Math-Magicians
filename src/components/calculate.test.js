@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import calculate from '../logic/calculate';
 
 describe('Test for the button AC', () => {

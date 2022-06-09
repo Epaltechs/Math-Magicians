@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import operate from '../logic/operate';
 
 describe('test for opertae file', () => {

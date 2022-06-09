@@ -1,0 +1,42 @@
+7fe30072e60339d5d8ce9351e50b5b73
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/Otomfon/Desktop/Math-Magicians/node_modules/@babel/runtime/helpers/interopRequireDefault.js").default;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));
+
+var _Navbar = _interopRequireDefault(require("./Navbar"));
+
+var _reactRouterDom = require("react-router-dom");
+
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+
+var _jsxFileName = "C:\\Users\\Otomfon\\Desktop\\Math-Magicians\\src\\components\\Navbar.test.js";
+
+const Navibar = () => {
+  /*#__PURE__*/
+  (0, _jsxDevRuntime.jsxDEV)(_reactRouterDom.BrowserRouter, {
+    children: /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_Navbar.default, {}, void 0, false, {
+      fileName: _jsxFileName,
+      lineNumber: 9,
+      columnNumber: 10
+    }, void 0)
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 8,
+    columnNumber: 5
+  }, void 0);
+};
+
+it('renders correctly', () => {
+  const tree = _reactTestRenderer.default.create( /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(Navibar, {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 32
+  }, void 0)).toJSON();
+
+  expect(tree).toMatchSnapshot();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJOYXZpYmFyIiwiaXQiLCJ0cmVlIiwicmVuZGVyZXIiLCJjcmVhdGUiLCJ0b0pTT04iLCJleHBlY3QiLCJ0b01hdGNoU25hcHNob3QiXSwic291cmNlcyI6WyJOYXZiYXIudGVzdC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvKmVzbGludC1kaXNhYmxlKi9cclxuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuaW1wb3J0IHJlbmRlcmVyIGZyb20gJ3JlYWN0LXRlc3QtcmVuZGVyZXInO1xyXG5pbXBvcnQgTmF2YmFyIGZyb20gJy4vTmF2YmFyJztcclxuaW1wb3J0IHsgQnJvd3NlclJvdXRlciB9IGZyb20gJ3JlYWN0LXJvdXRlci1kb20nO1xyXG5cclxuY29uc3QgTmF2aWJhciA9ICgpPT57XHJcbiAgICA8QnJvd3NlclJvdXRlcj5cclxuICAgICAgICAgPE5hdmJhciAvPlxyXG4gICAgPC9Ccm93c2VyUm91dGVyPlxyXG4gfVxyXG4gXHJcbml0KCdyZW5kZXJzIGNvcnJlY3RseScsICgpID0+IHtcclxuICBjb25zdCB0cmVlID0gcmVuZGVyZXIuY3JlYXRlKDxOYXZpYmFyIC8+KS50b0pTT04oKTtcclxuICAgIGV4cGVjdCh0cmVlKS50b01hdGNoU25hcHNob3QoKTtcclxufSk7XHJcbiJdLCJtYXBwaW5ncyI6Ijs7OztBQUNBOztBQUNBOztBQUNBOztBQUNBOzs7Ozs7QUFFQSxNQUFNQSxPQUFPLEdBQUcsTUFBSTtFQUNoQjtFQUFBLDJCQUFDLDZCQUFEO0lBQUEsdUJBQ0ssMkJBQUMsZUFBRDtNQUFBO01BQUE7TUFBQTtJQUFBO0VBREw7SUFBQTtJQUFBO0lBQUE7RUFBQTtBQUdGLENBSkY7O0FBTUFDLEVBQUUsQ0FBQyxtQkFBRCxFQUFzQixNQUFNO0VBQzVCLE1BQU1DLElBQUksR0FBR0MsMEJBQUEsQ0FBU0MsTUFBVCxlQUFnQiwyQkFBQyxPQUFEO0lBQUE7SUFBQTtJQUFBO0VBQUEsVUFBaEIsRUFBNkJDLE1BQTdCLEVBQWI7O0VBQ0VDLE1BQU0sQ0FBQ0osSUFBRCxDQUFOLENBQWFLLGVBQWI7QUFDSCxDQUhDLENBQUYifQ==

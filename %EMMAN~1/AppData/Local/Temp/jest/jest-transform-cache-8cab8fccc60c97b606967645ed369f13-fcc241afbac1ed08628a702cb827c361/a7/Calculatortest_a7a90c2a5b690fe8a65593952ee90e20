@@ -1,0 +1,34 @@
+1b63abc29c21402ee85c343dfb4160fb
+"use strict";
+
+var _interopRequireDefault = require("C:/Users/Otomfon/Desktop/Math-Magicians/node_modules/@babel/runtime/helpers/interopRequireDefault.js").default;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));
+
+var _Calculator = _interopRequireDefault(require("./Calculator"));
+
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+
+var _jsxFileName = "C:\\Users\\Otomfon\\Desktop\\Math-Magicians\\src\\components\\Calculator.test.js";
+it('should render correctly', () => {
+  const data = {
+    total: '',
+    operation: '',
+    next: '0'
+  };
+  const buttonNames = ['AC', '+/-', '%', '÷', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
+
+  const tree = _reactTestRenderer.default.create( /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_Calculator.default, {
+    obj: data,
+    data: buttonNames
+  }, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 14,
+    columnNumber: 13
+  }, void 0)).toJSON();
+
+  expect(tree).toMatchSnapshot();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJpdCIsImRhdGEiLCJ0b3RhbCIsIm9wZXJhdGlvbiIsIm5leHQiLCJidXR0b25OYW1lcyIsInRyZWUiLCJyZW5kZXJlciIsImNyZWF0ZSIsInRvSlNPTiIsImV4cGVjdCIsInRvTWF0Y2hTbmFwc2hvdCJdLCJzb3VyY2VzIjpbIkNhbGN1bGF0b3IudGVzdC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvKmVzbGludC1kaXNhYmxlKi9cbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgcmVuZGVyZXIgZnJvbSAncmVhY3QtdGVzdC1yZW5kZXJlcic7XG5pbXBvcnQgRGVzaWduIGZyb20gJy4vQ2FsY3VsYXRvcic7XG5cbml0KCdzaG91bGQgcmVuZGVyIGNvcnJlY3RseScsICgpID0+IHtcbiAgY29uc3QgZGF0YSA9IHtcbiAgICB0b3RhbDogJycsXG4gICAgb3BlcmF0aW9uOiAnJyxcbiAgICBuZXh0OiAnMCcsXG4gIH07XG4gIGNvbnN0IGJ1dHRvbk5hbWVzID0gWydBQycsICcrLy0nLCAnJScsICfDtycsICc3JywgJzgnLCAnOScsICd4JywgJzQnLCAnNScsICc2JywgJy0nLCAnMScsICcyJywgJzMnLCAnKycsICcwJywgJy4nLCAnPSddO1xuICBjb25zdCB0cmVlID0gcmVuZGVyZXJcbiAgICAuY3JlYXRlKDxEZXNpZ24gb2JqPXtkYXRhfSBkYXRhPXtidXR0b25OYW1lc30gLz4pXG4gICAgLnRvSlNPTigpO1xuICBleHBlY3QodHJlZSkudG9NYXRjaFNuYXBzaG90KCk7XG59KTtcbiJdLCJtYXBwaW5ncyI6Ijs7OztBQUNBOztBQUNBOztBQUNBOzs7OztBQUVBQSxFQUFFLENBQUMseUJBQUQsRUFBNEIsTUFBTTtFQUNsQyxNQUFNQyxJQUFJLEdBQUc7SUFDWEMsS0FBSyxFQUFFLEVBREk7SUFFWEMsU0FBUyxFQUFFLEVBRkE7SUFHWEMsSUFBSSxFQUFFO0VBSEssQ0FBYjtFQUtBLE1BQU1DLFdBQVcsR0FBRyxDQUFDLElBQUQsRUFBTyxLQUFQLEVBQWMsR0FBZCxFQUFtQixHQUFuQixFQUF3QixHQUF4QixFQUE2QixHQUE3QixFQUFrQyxHQUFsQyxFQUF1QyxHQUF2QyxFQUE0QyxHQUE1QyxFQUFpRCxHQUFqRCxFQUFzRCxHQUF0RCxFQUEyRCxHQUEzRCxFQUFnRSxHQUFoRSxFQUFxRSxHQUFyRSxFQUEwRSxHQUExRSxFQUErRSxHQUEvRSxFQUFvRixHQUFwRixFQUF5RixHQUF6RixFQUE4RixHQUE5RixDQUFwQjs7RUFDQSxNQUFNQyxJQUFJLEdBQUdDLDBCQUFBLENBQ1ZDLE1BRFUsZUFDSCwyQkFBQyxtQkFBRDtJQUFRLEdBQUcsRUFBRVAsSUFBYjtJQUFtQixJQUFJLEVBQUVJO0VBQXpCO0lBQUE7SUFBQTtJQUFBO0VBQUEsVUFERyxFQUVWSSxNQUZVLEVBQWI7O0VBR0FDLE1BQU0sQ0FBQ0osSUFBRCxDQUFOLENBQWFLLGVBQWI7QUFDRCxDQVhDLENBQUYifQ==

@@ -1,3 +1,4 @@
+/*eslint-disable*/
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Navbar from './Navbar';
