@@ -10,7 +10,9 @@
 - Linters
 
 ## Live Demo
+[Heroku](https://62a21fec60256d0](https://math-mathecians.herokuapp.com/)
 [Netlify](https://62a21fec60256d046023c7aa--rococo-mochi-a5bb9c.netlify.app/)
+
 
 ## Getting Started
 To get a local copy open and running follow these simple example steps.
